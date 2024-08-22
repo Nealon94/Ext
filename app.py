@@ -3,7 +3,7 @@ import os
 
 app = Flask(__name__)
 
-# Path to your XML file (relative path)
+# Path to your XML file (relative path from the root of your project)
 xml_file_path = os.path.join('data', 'Pavan Lalwani Sales Report.xml')
 
 @app.route('/extract-data', methods=['GET'])
